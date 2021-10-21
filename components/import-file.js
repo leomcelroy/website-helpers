@@ -1,4 +1,4 @@
-import marked from 'https://cdn.skypack.dev/marked';
+import marked from './marked.js';
 
 customElements.define('import-file', class extends HTMLElement {
   constructor() {

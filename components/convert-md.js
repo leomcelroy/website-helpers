@@ -1,4 +1,4 @@
-import marked from 'https://cdn.skypack.dev/marked';
+import marked from 'https://unpkg.com/marked@0.3.6/marked.min.js';
 
 customElements.define('convert-md', class extends HTMLElement {
   constructor() {
